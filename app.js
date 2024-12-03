@@ -1,7 +1,7 @@
 const btn = document.querySelector(".talk");
 const content = document.querySelector(".content");
 
-let isListening = true;
+let isListening = false;
 
 function speak(text) {
   const text_speak = new SpeechSynthesisUtterance(text);
